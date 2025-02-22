@@ -105,7 +105,7 @@ function takeCommand(message) {
   } else if (message.includes("date")) {
     let date = new Date().toLocaleDateString();
     speak(`Today's date is ${date}`);
-  } else if (message.includes("play my favorite song")) {
+  } else if (message.includes("play my favourite song")) {
     speak("Playing your favorite song...");
     window.open("https://www.youtube.com/watch?v=K7o9fUEP3GU", "_blank");
   } else if (message.match(/\d+\s*[\+\-\*\/]\s*\d+/)) {
